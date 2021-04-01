@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2021-04-01T07:40:52.655Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.3" etag="H0LqGSA8PyCbGhQWzKxX" type="github"><diagram id="HDUh8KFkc2XfVKM-5Clk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-01T07:48:52.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="-IFIGmw7HMQIirkLOCd3" version="14.5.3" type="github">
+  <diagram id="HDUh8KFkc2XfVKM-5Clk" name="Page-1">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-1" value="app.js" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="aaAcOVI4jzEFAjLfSlic-1">
+          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.923;exitY=0.212;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaAcOVI4jzEFAjLfSlic-2" target="aaAcOVI4jzEFAjLfSlic-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="260" as="targetPoint" />
+            <mxPoint x="170" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aaAcOVI4jzEFAjLfSlic-7" target="aaAcOVI4jzEFAjLfSlic-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.92;entryY=0.289;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aaAcOVI4jzEFAjLfSlic-7" target="aaAcOVI4jzEFAjLfSlic-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;dashed=1;" edge="1" parent="1" source="aaAcOVI4jzEFAjLfSlic-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519" y="259" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="455" y="260" />
+              <mxPoint x="455" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-7" value="encryptor(input, matrixKey)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-8" value="textToEncrypt.txt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-9" value="input" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-11" value="encryptedData" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="165" y="260" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;dashed=1;" edge="1" parent="1" source="aaAcOVI4jzEFAjLfSlic-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-13" value="decryptor(encryptedData, matrixKey)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;exitX=1.051;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aaAcOVI4jzEFAjLfSlic-2" target="aaAcOVI4jzEFAjLfSlic-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="168" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.92;entryY=0.289;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240.79999999999995" y="355" as="sourcePoint" />
+            <mxPoint x="165" y="354.9100000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="355" />
+              <mxPoint x="190" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-17" value="decryptedData" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="165.8" y="340" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.923;exitY=0.212;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="aaAcOVI4jzEFAjLfSlic-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="400" as="targetPoint" />
+            <mxPoint x="165" y="400.28" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="213" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-19" value="&lt;span style=&quot;font-size: 8px&quot;&gt;decryptedData&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="165.76999999999998" y="380" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-20" value="decrypted.txt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-21" value="MatrixKey" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-22" value="- matrix: Matrix (mathjs)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aaAcOVI4jzEFAjLfSlic-21">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="aaAcOVI4jzEFAjLfSlic-21">
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-24" value="+ getEncryptedBigram(inputBigram): string&#xa;+ getDecryptedBigram(inputBigram): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aaAcOVI4jzEFAjLfSlic-21">
+          <mxGeometry y="60" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-25" value="&lt;span&gt;matrixKey&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="240" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aaAcOVI4jzEFAjLfSlic-26" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;span&gt;matrixKey,&lt;br&gt;&lt;/span&gt;&lt;span&gt;encryptedData&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
